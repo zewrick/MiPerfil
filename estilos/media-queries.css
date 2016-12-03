@@ -23,7 +23,7 @@
 
 
 /* Smartphones (tablets & pc) ----------- */
-@media only screen and (min-width: 468px) and (max-width:530px) {
+@media only screen and (min-width: 460px) and (max-width:530px) {
     .sub-header {
         height: 50px;
     }
@@ -47,9 +47,9 @@
 
 
 /* Smartphones (tablets & pc 2) ----------- */
-@media only screen and (min-width: 768px) and (max-width:810px) {
+@media only screen and (min-width: 540px) and (max-width:600px) {
     .sub-header {
-        height: 190px;
+        height: 50px;
     }
     .me {
         width: 170px;
@@ -70,9 +70,9 @@
 }
 
 /* Smartphones (tablets & pc 3) ----------- */
-@media only screen and (min-width: 811px) and (max-width:900px) {
+@media only screen and (min-width: 601px) and (max-width:670px) {
     .sub-header {
-        height: 230px;
+        height: 90px;
     }
     .me {
         width: 170px;
@@ -94,9 +94,171 @@
 
 
 /* Smartphones (tablets & pc 4) ----------- */
-@media only screen and (min-width: 901px) and (max-width:1000px) {
+@media only screen and (min-width: 671px) and (max-width:750px) {
     .sub-header {
-        height: 260px;
+        height: 140px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 5) ----------- */
+@media only screen and (min-width: 751px) and (max-width:800px) {
+    .sub-header {
+        height: 190px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 6) ----------- */
+@media only screen and (min-width: 801px) and (max-width:880px) {
+    .sub-header {
+        height: 230px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 7) ----------- */
+@media only screen and (min-width: 881px) and (max-width:950px) {
+    .sub-header {
+        height: 285px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 8) ----------- */
+@media only screen and (min-width: 951px) and (max-width:1030px) {
+    .sub-header {
+        height: 330px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 9) ----------- */
+@media only screen and (min-width: 1031px) and (max-width:1100px) {
+    .sub-header {
+        height: 380px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 10) ----------- */
+@media only screen and (min-width: 1101px) and (max-width:1200px) {
+    .sub-header {
+        height: 435px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+
+/* Smartphones (tablets & pc 11) ----------- */
+@media only screen and (min-width: 1201px) and (max-width:1290px) {
+    .sub-header {
+        height: 500px;
     }
     .me {
         width: 170px;
@@ -118,9 +280,11 @@
 
 
 
+
+
 /* Smartphones (full pc & large screens) ----------- */
 
-@media only screen and (min-width:1290px) {
+@media only screen and (min-width:1291px) {
     .sub-header {
         height: 430px;
     }
