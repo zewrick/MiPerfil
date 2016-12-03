@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* layer1 */
+.layer1-backgr {
+    background-image: url(../imgs/backgr-layer1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:absolute;
+    z-index: -1;
+}
+
+.navbar {
+    position:absolute;
+    right:50px;
+    z-index: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+}
+
+.sub-header {
+    
+    height:465px;
+    text-align: center;
+}
+
+.content{
+    position: relative;
+    top:64%;
+}
+
+    
+/* layer1 */
+
+
+
+

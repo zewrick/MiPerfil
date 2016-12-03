@@ -1,0 +1,147 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+/* Smartphones (smartphones) ----------- */
+@media only screen and (min-width: 320px) and (max-width:420px) {
+    .sub-header {
+        height: 80px;
+    }
+    .me {
+        width: 135px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+}
+
+
+/* Smartphones (tablets & pc) ----------- */
+@media only screen and (min-width: 468px) and (max-width:530px) {
+    .sub-header {
+        height: 50px;
+    }
+    .me {
+        width: 135px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+
+/* Smartphones (tablets & pc 2) ----------- */
+@media only screen and (min-width: 768px) and (max-width:810px) {
+    .sub-header {
+        height: 190px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+/* Smartphones (tablets & pc 3) ----------- */
+@media only screen and (min-width: 811px) and (max-width:900px) {
+    .sub-header {
+        height: 230px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+
+/* Smartphones (tablets & pc 4) ----------- */
+@media only screen and (min-width: 901px) and (max-width:1000px) {
+    .sub-header {
+        height: 260px;
+    }
+    .me {
+        width: 170px;
+    }
+    .content h1{
+        font-size:15pt;
+    }
+    
+    .text-border {
+        width:250px ;
+        height:30px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+    
+}
+
+
+
+/* Smartphones (full pc & large screens) ----------- */
+
+@media only screen and (min-width:1290px) {
+    .sub-header {
+        height: 430px;
+    }
+    .me {
+        width:230px;
+    }
+    .content h1{
+        font-size:30px;
+        color:#ffffff; 
+    }
+    
+    .text-border {
+        width:400px ;
+        height:40px;
+        border:1px solid;
+        margin: auto;
+        color:#fff;
+    }
+    
+}
+
+
+
+    
