@@ -1,46 +1,111 @@
+@import url(banner.css);
+
+
 *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 
-/* layer1 */
-.layer1-backgr {
-    background-image: url(../imgs/backgr-layer1.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position:absolute;
-    z-index: -1;
+img {
+    display: block;
+    max-width: 100%;
 }
-
-.navbar {
-    position:absolute;
-    right:50px;
-    z-index: 1;
-}
-
-.navbar a {
+a {
     text-decoration: none;
 }
 
-
-.header {
-    width: 100%;
+h1{
+    font-size:15pt;
+    padding: 15px;
+    float:left;
+    color:white;
 }
 
-.sub-header {
+h2 {
+    font-size: 10pt;
+}
+
+.contenedor {
+    width:97%;
+    margin: auto;
+}
+
+/*------- Estilos header -------*/
+
+header {
+    background:#585858;
+    height:60px;
+}
+
+/*---- para que space-between de flex funque en moz: margin ---*/
+header label {
+    float:right;
+    margin: 13px 0;
+    margin-left:auto;
     
-    height:465px;
-    text-align: center;
 }
 
-.content{
-    position: relative;
-    top:64%;
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.icon-menu {
+    width: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+/*---- Transición del menú ---*/
+
+.menu {
+    position:absolute;
+    background: #888;
+    top:60px;
+    width:100%; 
+    left:0; 
+    transition: 0.5s;
+    transform: translateX(-100%);
     
-/* layer1 */
+}
+
+
+
+
+#barra_menu:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+
+
+.menu a {
+    display: inline-block;
+    color:#fff;
+    height: 35px;
+    padding:8px;
+    font-size:10pt;
+}
+
+#barra_menu {
+    display:none;
+}
+
+.menu a:hover {
+    background: #b7b7b7;
+}
+
+.icon-paper, .icon-menu {
+    margin: 5px;
+}
+
+.icon-paper {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+}
+
 
 
 

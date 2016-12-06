@@ -3,8 +3,40 @@
     src:url(fonts/SourceSansPro-Light.otf);
 }
 
+@font-face{
+    font-family:SourceSansPro-Regular;
+    src:url(fonts/SourceSansPro-Regular.otf);
+}
 
-h1 {
-    font-family:SourceSansPro-Light;
+@font-face{
+    font-family:SourceSansPro-It;
+    src:url(fonts/SourceSansPro-It.otf);
+}
+@font-face{
+    font-family:SourceSansPro-Semibold;
+    src:url(fonts/SourceSansPro-Semibold.otf);
+}
+@font-face{
+    font-family:SourceSansPro-Bold;
+    src:url(fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face{
+    font-family:SourceSansPro-Black;
+    src:url(fonts/SourceSansPro-Black.otf);
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family:SourceSansPro-Regular;
     letter-spacing:0.5px;
+}
+
+.menu  {
+    font-family: SourceSansPro-Light;
+    letter-spacing:0.8px;
+    text-align: center;
+}
+
+#banner h2 b {
+    font-family:SourceSansPro-Black;
 }

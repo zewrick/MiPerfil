@@ -1,0 +1,33 @@
+#banner {
+    position: relative;
+    z-index: -2;
+}
+
+
+#banner h2 {
+    font-size: 15pt;
+    color: white;    
+}
+
+#banner h2 b {
+    color:#f6ff00;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+#banner .me {
+    width: 120px;
+    position: absolute;
+    text-align: center;
+    top:100%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}

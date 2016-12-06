@@ -3,31 +3,42 @@
     <head>
        <meta charset="utf-8">
        <link rel="stylesheet" href="estilos/estilos.css">
-        <link rel="stylesheet" href="estilos/media-queries.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="estilos/fonts.css">
        <title> Mi Perfil</title>
     </head>
     
     <body>
-        <div id="contenedor">
-        <nav class="navbar">
-                <a href="">Servicios</a>
-                <a href="">Contacto</a>
-        </nav>
-        <header class="header">
-           <img class="layer1-backgr"  src="imgs/backgr-layer1.jpg" alt="">
-           <div class="sub-header">
-           <div class="content">
-           <img class="me" src="imgs/me.png" alt="">
-           <div class="text-border">
-           <h1>José Miguel de la Vega Díaz</h1>
+       <header class="header">
+          <div class="contenedor">
+           <a href=""><img class="icon-paper" src="imgs/icon-paper.png" alt=""></a>
+           <a href=""><h1>Mi Perfil</h1></a>
+           <input type="checkbox" id="barra_menu">
+           <label for="barra_menu"><img class="icon-menu" id="icon-menu" src="imgs/icon-menu.png" alt=""></label> 
+            
+            <nav class="menu" id="menu">
+                 <a class:"menu-link" href="">Diseño Web</a>
+                 <a class:"menu-link" href="">Marketing Digital</a>
+                 <a class:"menu-link" href="">Motion Design</a>
+             </nav>                            
            </div>
-           </div>
-            </div>
-        </header>
-             
-        </div>
+           
+           
+       </header>
+       <main>
+           <section id="banner">
+              <img class="backgr" src="imgs/backgr-1.jpg" alt="">
+              <div class="contenedor">
+                  <h2><b>¡Hola!</b> Soy José Miguel</h2>
+                  
+               </div>
+               <img class="me" src="imgs/me.png" alt="">
+               
+           </section>
+            
+       </main>
+       
+    
     </body>
     
 </html>
